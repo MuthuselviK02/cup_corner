@@ -1,9 +1,9 @@
-import '../App.css'
+
 import logo from '../assets/logo.png'
 const Home = () => {
   return (
     <>
-    <div className="hero" id='home'>
+    <div className="hero" >
       <div className="nav-bar">
         <nav>
           <img src={logo} alt="" />
@@ -19,7 +19,7 @@ const Home = () => {
         <p>Freshly roasted coffee, handcrafted for you.</p>
         <button><a href="">Order Now</a></button>
       </div>
-      <div className="menu" id='menu'>
+      <div className="menu">
       <div className='m-item'>
         <h3 className='item-n'>Cappuccino</h3>
         <p>Price: $15</p>
@@ -63,7 +63,7 @@ const Home = () => {
             <li><a href="">Menu</a></li>
             <li><a href="">Contact</a></li>
           </ul>
-          </div>
+          </div> 
         
         
 
